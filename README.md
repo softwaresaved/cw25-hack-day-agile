@@ -5,7 +5,7 @@ This is a template repository to be used as the base for new repos created for C
 The following steps will need to be performed immediately after creating the new repository to complete the set up.
 
 ## Branch Protection Ruleset
-The first thing to do after creating your new repository from this template is to head to `Settings -> Rules -> Rulesets` then choose `Import Ruleset`. You will then need to import the `Key Branch Protection Rules.json` ruleset which is stored in this repository.
+The first thing to do after creating your new repository from this template is to head to `Settings -> Rules -> Rulesets` then choose `Import Ruleset`. You will then need to import the `KeyBranchProtectionRules.json` ruleset which is stored within the `setup` directory in this repository.
 
 **This ruleset is designed to enforce a GitFlow development process which protects your main code branches. It is advised to not relax or disable these rules unless exceptional circumstances dictate it e.g. if an existing CI integration requires a rule to be relaxed.**
 
