@@ -22,7 +22,7 @@ To state the copyright, and use the Apache v2.0 licence, you should include the 
 ```
 Copyright <YEAR> <Author>, <Institution>
 
-Licensed under [Apache Licence, version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+Licensed under [Apache Licence, version 2.0](https://www.apache.org/licenses/LICENSE-2.0). Any contributions received are assumed to be covered by the [Apache Licence 2.0](https://www.apache.org/licenses/LICENSE-2.0#contributions).
 ```
 Within the LICENSE file boilerplate text is included, that you can add to your source files as required.
 
@@ -45,3 +45,11 @@ Recommended sections:
 
 # Suggest Improvements
 Please feel free to suggest improvements to this template by adding issues to the repository.
+
+# Licence
+
+Copyright 2025 Research-IT, University of Manchester, UK
+
+Licensed under [Apache Licence, version 2.0](https://www.apache.org/licenses/LICENSE-2.0). Any contributions received are assumed to be covered by the [Apache Licence 2.0](https://www.apache.org/licenses/LICENSE-2.0#contributions).
+
+
