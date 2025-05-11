@@ -33,9 +33,15 @@ Setup `.gitignore` according to your project needs, see `.gitignore` templates [
 Delete the `setup` folder and it's contents.
 
 ## Replace `README.md`
+Edit this readme file, and replace it with information relevant to your project.
 
-
-
+Recommended sections:
+- Project description
+- Software requirements
+- Installation instructions
+- Usage guidelines / Quickstart
+- Contribution guidelines
+- Licence and Copyright
 
 # Suggest Improvements
 Please feel free to suggest improvements to this template by adding issues to the repository.
