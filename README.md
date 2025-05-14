@@ -2,7 +2,7 @@
 This is a template repository to be used as the base for new repos created for Collaborations Workshop 2025 projects. It comes with a set of default actions, tools and advice to help start your project properly.
 
 # Immediate Set Up
-The following steps will need to be performed immediately after creating the new repository to complete the set up.
+The following steps will need to be performed to create, link, and setup your project board and repository.
 
 ## Create Project Board
 Go to the [Software Saved Project Board Template](https://github.com/orgs/softwaresaved/projects/42), and click on the green **Use this template** button. Select the owner organisation or user for your project board, name the project board, and click **Use template**.
@@ -56,6 +56,9 @@ Recommended sections:
 - Usage guidelines / Quickstart
 - Contribution guidelines
 - Licence and Copyright
+
+## Citation Guidance
+If you want to help others to properly cite your project, you can creation a citation file. This can be done using the `create new file` button on the repository page, and entering the file name `CITATION.cff`. Github will create a template file for you, which you can fill out following the [Turing Way Citation guidance](https://book.the-turing-way.org/communication/citable/citable-cff).
 
 # Suggest Improvements
 Please feel free to suggest improvements to this template by adding issues to the repository.
