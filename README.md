@@ -58,7 +58,7 @@ Recommended sections:
 - Licence and Copyright
 
 ## Citation Guidance
-If you want to help others to properly cite your project, you can creation a citation 
+If you want to help others to properly cite your project, you can creation a citation file. This can be done using the `create new file` button on the repository page, and entering the file name `CITATION.cff`. Github will create a template file for you, which you can fill out following the [Turing Way Citation guidance](https://book.the-turing-way.org/communication/citable/citable-cff).
 
 # Suggest Improvements
 Please feel free to suggest improvements to this template by adding issues to the repository.
