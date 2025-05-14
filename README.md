@@ -4,8 +4,22 @@ This is a template repository to be used as the base for new repos created for C
 # Immediate Set Up
 The following steps will need to be performed immediately after creating the new repository to complete the set up.
 
+## Create Project Board
+Go to the [Software Saved Project Board Template](https://github.com/orgs/softwaresaved/projects/42), and click on the green **Use this template** button. Select the owner organisation or user for your project board, name the project board, and click **Use template**.
+
+## Create Project Code Repository
+At the top-right of this repository webpage, click the green **Use this template** button, and select **Create a new repository**. Don't select 'Include all branches' - we only want the default branch. Chose an owner organisation or user (having the same owner as your project board will make things a *lot* easier). Name the repository, and click **Create repository**.
+
+## Link Project Board and Code Repository
+Select the **Projects** tab at the top of the repository page. Click the **Link a project** button, and select your project board.
+
+Then, on the project board click the `...` button at the top-right of the page, then select **Workflows**. On the workflows page select the `Auto-add to project` option on the left panel. Click the `edit` button at the top-right, select your project repository, and set the rules to be `is:issue,pr is:open`. Finally click the green **Save and turnon workflow** button.
+
+## Branch Creation
+The default branch is `develop`. When following Gitflow development practice you will be creating feature branches from this branch, carrying out your work in these, then merging them (via Pull requests) back into `develop`. It is common to have a `main` branch too, to which you will merge (via Pull requests) code from `develop` for release to end users. A `main` branch is not included when you create your code repository, but you can create this by clicking on the branch button (showing `develop`) at the middle-left of the repository page, and selecting the `View all branches` screen. Then click the green `New branch` button to the top right of the page.
+
 ## Branch Protection Ruleset
-The first thing to do after creating your new repository from this template is to head to `Settings -> Rules -> Rulesets` then choose `Import Ruleset`. You will then need to import the `KeyBranchProtectionRules.json` ruleset which is stored within the `setup` directory in this repository.
+The first thing to do after creating your new repository from this template is to setup up the branch ruleset. Download the `KeyBranchProtectionRules.json` ruleset which is stored within the `setup` directory in this repository to your computer. Then head to `Settings -> Rules -> Rulesets` then choose `Import Ruleset`. Import the `KeyBranchProtectionRules.json` ruleset that you have just downloaded.
 
 **This ruleset is designed to enforce a GitFlow development process which protects your main code branches. It is advised to not relax or disable these rules unless exceptional circumstances dictate it e.g. if an existing CI integration requires a rule to be relaxed.**
 
