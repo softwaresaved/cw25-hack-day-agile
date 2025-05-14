@@ -1,6 +1,5 @@
 name: New Task
 description: A request for something to be done that isn't really a bug fix or a new feature.
-type: Task
 labels: ["task"]
 body:
   - type: markdown
