@@ -1,7 +1,6 @@
 name: Feature Request
 description: >
   A request for a new feature to be added, for the software to do something that it did not previously do. Typically will take the form of a "User Story" and hence assumes that issue type.
-type: Feature
 labels: ["user story"]
 body:
   - type: markdown
